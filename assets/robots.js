@@ -27,7 +27,7 @@ function makeApp(app) {
 
 
 	// ~~~~~~~~~~~~~  HEADER  ~~~~~~~~~~~~~
-	new Pic("logo.jpg").scaleTo(app,88).pos(-3,12,CENTER,TOP,app);
+	new Pic("https://raw.githubusercontent.com/karelrosseel/zim015vr/master/assets/robots/logo.jpg").scaleTo(app,88).pos(-3,12,CENTER,TOP,app);
 
 
 	// // ~~~~~~~~~~~~~  FOOTER  ~~~~~~~~~~~~~
@@ -62,8 +62,8 @@ function makeApp(app) {
 	const goodSeries = series({min:0, max:99}).shuffle();
 	const evilSeries = series({min:0, max:99}).shuffle();
 
-	const good = new Pic("good2.jpg");
-	const evil = new Pic("evil2.jpg");
+	const good = new Pic("https://raw.githubusercontent.com/karelrosseel/zim015vr/master/assets/robots/good2.jpg");
+	const evil = new Pic("https://raw.githubusercontent.com/karelrosseel/zim015vr/master/assets/robots/evil2.jpg");
 
 	let set;
 	const total = 15;
